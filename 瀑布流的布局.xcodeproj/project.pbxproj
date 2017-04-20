@@ -14,6 +14,8 @@
 		928D50F51EA8DD3C00B39405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D50F31EA8DD3C00B39405 /* LaunchScreen.storyboard */; };
 		928D51001EA8DD3C00B39405 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D50FF1EA8DD3C00B39405 /* ______Tests.swift */; };
 		928D510B1EA8DD3C00B39405 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D510A1EA8DD3C00B39405 /* ______UITests.swift */; };
+		928D511B1EA8DEBE00B39405 /* SLWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D511A1EA8DEBE00B39405 /* SLWaterfallLayout.swift */; };
+		928D511D1EA8DEF500B39405 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D511C1EA8DEF500B39405 /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		928D51061EA8DD3C00B39405 /* 瀑布流的布局UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "瀑布流的布局UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D510A1EA8DD3C00B39405 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
 		928D510C1EA8DD3C00B39405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928D511A1EA8DEBE00B39405 /* SLWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLWaterfallLayout.swift; sourceTree = "<group>"; };
+		928D511C1EA8DEF500B39405 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				928D50EA1EA8DD3C00B39405 /* AppDelegate.swift */,
 				928D50EC1EA8DD3C00B39405 /* ViewController.swift */,
+				928D511C1EA8DEF500B39405 /* UIColor-Extension.swift */,
+				928D511A1EA8DEBE00B39405 /* SLWaterfallLayout.swift */,
 				928D50EE1EA8DD3C00B39405 /* Main.storyboard */,
 				928D50F11EA8DD3C00B39405 /* Assets.xcassets */,
 				928D50F31EA8DD3C00B39405 /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				928D50ED1EA8DD3C00B39405 /* ViewController.swift in Sources */,
+				928D511D1EA8DEF500B39405 /* UIColor-Extension.swift in Sources */,
 				928D50EB1EA8DD3C00B39405 /* AppDelegate.swift in Sources */,
+				928D511B1EA8DEBE00B39405 /* SLWaterfallLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				928D51111EA8DD3C00B39405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		928D51121EA8DD3C00B39405 /* Build configuration list for PBXNativeTarget "瀑布流的布局Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				928D51141EA8DD3C00B39405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		928D51151EA8DD3C00B39405 /* Build configuration list for PBXNativeTarget "瀑布流的布局UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				928D51171EA8DD3C00B39405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
